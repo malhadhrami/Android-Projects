@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Adopet</string>
+    <string name="Welcome"><b><i>Happy to see you on board!</i></b></string>
+    <string name="Login"><b>Login</b></string>
+    <string name="Register"><b>Register</b></string>
+    <string name="Join"><b>Confirm</b></string>
+    <string name="Welcome2"><b>Adopt \n &amp; \n Adore &#9825;</b></string>
+    <string name="copyrights">© ᴢᴀʏᴇᴅ ᴀʟʜᴏsᴀɴɪ. ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ</string>
+    <string name="Terms">I Adore pets </string>
+    <string name="LastPAGEKHALAS">1.Increased Personal Safety
+2.Receiving Love \n3.Learning Patience\n4.Pets Empathize with You \n5.Improved Mental Health \n6.Saving an Animal from a Shelter</string>
+    <string name="IMDONE">
+\n1.Responsibility \n2.Allergies \n3.Possible Safety Hazards \n4.Cost \n5.Poop \n6.Schedule Disorder</string>
+
+
+    <string-array name="Type">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+
+
+    </string-array>
+
+
+</resources>
