@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">minipro1</string>
+    <string name="title_activity_login">login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_in">Sign In</string>
+    <string name="back_button_description">Back Button</string>
+    <string name="grid_sectioned_recyclerview">Grid Sectioned RecyclerView</string>
+
+    <string name="select_type">Select appointment type</string>
+    <string name="request_appointment">Request Appointment</string>
+    <string name="thanks_appointment">Thank you For Appointment</string>
+    <string-array name="appointment_types">
+        <item>Select type</item>
+        <item>Eyes</item>
+        <item>Teeth and Mouth</item>
+        <item>Corona Virus</item>
+        <item>Operation</item>
+    </string-array>
+
+    <string-array name="doctors_array">
+        <item>Select doctor</item>
+        <item>Amir</item>
+        <item>Anil</item>
+        <item>Sina</item>
+    </string-array>
+
+
+</resources>

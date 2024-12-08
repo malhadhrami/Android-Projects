@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context=".Appointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center|center_vertical"
+            android:text="Get an Appointment"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/timeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ed_date"
+            android:clickable="true"
+            android:drawableStart="@drawable/baseline_access_time_filled_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="Time Eg. 12:05"
+            android:inputType="time"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dateET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ed_date"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_baseline_date_range_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/ubunturegular"
+            android:hint="Date Eg. 2023-12-02"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:paddingStart="15dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/select_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:text="@string/select_type"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/app_spinner"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ed_pass"
+            android:backgroundTint="@color/white"
+            android:entries="@array/appointment_types"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:prompt="@string/select_type"
+            android:spinnerMode="dropdown"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_docname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:text="Select Doctors"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/doc_spinner"
+            android:layout_width="252dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ed_pass"
+            android:backgroundTint="@color/white"
+            android:entries="@array/doctors_array"
+            android:gravity="center"
+            android:fontFamily="@font/ubunturegular"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btn_requestAppointment"
+            android:layout_width="259dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:layout_marginVertical="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/ubunturegular"
+            android:gravity="center"
+            android:text="@string/request_appointment"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
